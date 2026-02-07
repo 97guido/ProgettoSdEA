@@ -13,7 +13,7 @@ CUDA con Ordinamento => histogram_stacking_cuda_with_sort.py
 numpy, pymongo, pycuda, h5py  
 
 ## Dataset utilizzato
-[Download (40GB)](https://m3ed-dist.s3.us-west-2.amazonaws.com/processed/car_urban_night_penno_small_loop/car_urban_night_penno_small_loop_data.h5)
+[Download (5.8GB)](https://m3ed-dist.s3.us-west-2.amazonaws.com/processed/car_urban_night_penno_small_loop/car_urban_night_penno_small_loop_data.h5)
 
 
 ## Testing with Nsight Compute

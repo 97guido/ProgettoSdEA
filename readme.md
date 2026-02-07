@@ -2,12 +2,18 @@
 Simone Guidi  
 Matricola: 981961
 
-### Implementazioni
+## Implementazioni
 CPU Naive => histogram_stacking_cpu.py  
 CPU Naive C++ => histogram_stacking_cpu_cpp.py  
 CUDA Naive => histogram_stacking_cuda_naive.py  
 CUDA Ottimizzata => histogram_stacking_cuda_16bit.py  
 CUDA con Ordinamento => histogram_stacking_cuda_with_sort.py  
+
+## Dipendenze
+numpy, pymongo, pycuda, h5py  
+
+## Dataset utilizzato
+[Download (40GB)](https://m3ed-dist.s3.us-west-2.amazonaws.com/processed/car_urban_night_penno_small_loop/car_urban_night_penno_small_loop_data.h5)
 
 
 ## Testing with Nsight Compute

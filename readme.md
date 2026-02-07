@@ -1,6 +1,7 @@
 
 
 ## Testing with Nsight Compute
+Eseguo Nsight Compute su tutti e tre i codici cuda con un numero di eventi diverso
 ```
 for t in 20000000 40000000 60000000 80000000 100000000 ; do 
     for f in $(ls histogram_stacking_cuda*.py); do 
@@ -8,3 +9,4 @@ for t in 20000000 40000000 60000000 80000000 100000000 ; do
     done
 done
 ```
+Utilizzando `report_stats_extractor.py` salvo tutte le metriche dei file di report su MongoDB 

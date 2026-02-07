@@ -1,5 +1,5 @@
-#Ottimizzazione CUDA per rappresentazioni stacked di eventi generati da una videocamera neuromorfica
-## Simone Guidi
+# Ottimizzazione CUDA per rappresentazioni stacked di eventi generati da una videocamera neuromorfica
+### Simone Guidi
 
 
 ## Testing with Nsight Compute

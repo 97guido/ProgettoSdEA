@@ -17,4 +17,4 @@ for t in 20000000 40000000 60000000 80000000 100000000 ; do
     done
 done
 ```
-Utilizzando `report_stats_extractor.py` salvo tutte le metriche dei file di report su MongoDB 
+Utilizzando `report_stats_extractor.py` salvo tutte le metriche dei file di report su MongoDB, utilizzate poi per i grafici

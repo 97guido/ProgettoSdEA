@@ -8,7 +8,7 @@ dataset = "car_urban_night_penno_small_loop_data.h5"
 events_per_stack = 200000
 threads_per_block = 512
 
-for endEvent in range(128000000, 200000000, 2000000):
+for endEvent in range(1000000, 140000000, 2000000):
 
     # HistogramStackingCPU().run(dataset, 0, endEvent, events_per_stack) 
     HistogramStackingCPP().run(dataset, 0, endEvent, events_per_stack)

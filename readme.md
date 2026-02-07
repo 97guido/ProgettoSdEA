@@ -1,5 +1,10 @@
 # Ottimizzazione CUDA per rappresentazioni stacked di eventi generati da una videocamera neuromorfica
-### Simone Guidi
+### Implementazioni
+CPU Naive => histogram_stacking_cpu.py
+CPU Naive C++ => histogram_stacking_cpu_cpp.py
+CUDA Naive => histogram_stacking_cuda_naive.py
+CUDA Ottimizzata => histogram_stacking_cuda_16bit.py
+CUDA con Ordinamento => histogram_stacking_cuda_with_sort.py
 
 
 ## Testing with Nsight Compute
